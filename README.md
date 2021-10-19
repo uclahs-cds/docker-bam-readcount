@@ -1,5 +1,5 @@
-# docker-tool_name
-Template Repository for the Boutros Lab Dockerfiles based on the bl-base image.
+# docker-bam-readcount
+bam-readcount is a utility that count DNA sequence reads in BAM and CRAM files. The main page can be found [here](https://github.com/genome/bam-readcount). 
 
 The bl-base image is located in the Boutros Lab Docker Hub repo: https://hub.docker.com/repository/docker/blcdsdockerregistry/bl-base
 
@@ -14,8 +14,8 @@ Docker image versioning standard [here](https://confluence.mednet.ucla.edu/displ
 # Version
 | Tool | Version |
 |------|---------|
-|tool_name| X.X.X|
-|tool_name_2|X.X.X|
+|bam-readcount| 0.8|
+
 
 
 ---
