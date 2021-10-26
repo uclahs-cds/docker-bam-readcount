@@ -1,14 +1,28 @@
-FROM blcdsdockerregistry/bl-base:1.0.0 AS builder
-
-# Use conda to install tools and dependencies into /usr/local
-ARG bam-readcount_VERSION=0.8
-RUN conda create -qy -p /usr/local \
-    -c bioconda \
-    -c conda-forge \
-    bam-readcount==${bam-readcount_VERSION}
-
-# Deploy the target tools into a base image
 FROM ubuntu:20.04
-COPY --from=builder /usr/local /usr/local
 
-LABEL maintainer="Mao Tian <maotian@mednet.ucla.edu>"
+RUN apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends\
+    build-essential \
+    git-core \
+    cmake \
+    zlib1g-dev \
+    libncurses-dev \
+    patch \
+    wget \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /
+RUN wget https://github.com/genome/bam-readcount/archive/v0.8.0.tar.gz \
+    && tar xzf v0.8.0.tar.gz \
+    && rm v0.8.0.tar.gz
+
+RUN mkdir bam-readcount \
+    && cd bam-readcount \
+    && cmake /bam-readcount-0.8.0 \
+    && make \
+    && rm -rf /bam-readcount-0.8.0 \
+    && ln -s /bam-readcount/bin/bam-readcount /usr/local/bin/bam-readcount
+
+WORKDIR /app
+CMD ["bash"]
