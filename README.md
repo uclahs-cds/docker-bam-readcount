@@ -14,7 +14,7 @@ Docker image versioning standard [here](https://confluence.mednet.ucla.edu/displ
 # Version
 | Tool | Version |
 |------|---------|
-|bam-readcount| 0.8|
+|bam-readcount| 1.0.0|
 
 
 
