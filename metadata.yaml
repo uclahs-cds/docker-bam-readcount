@@ -7,4 +7,4 @@ Languages: ['Dockerfile']  # programming languages used
 Tools: ['bam_readcount']  # Name of the tool(s) used in the Dockerfile
 Version: ['1.0.0']  # Tool version number
 Purpose of tool: 'a utility that count DNA sequence reads in BAM and CRAM files.'  # Description of what this tool does
-References: ''  # is the tool/dependencies published, is there a confluence page
+References: 'Khanna, Ajay et al. “Bam-readcount -- rapid generation of basepair-resolution sequence metrics.” ArXiv arXiv:2107.12817v1. 27 Jul. 2021 Preprint. https://github.com/genome/bam-readcount'  # is the tool/dependencies published, is there a confluence page
