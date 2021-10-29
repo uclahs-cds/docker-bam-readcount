@@ -1,10 +1,10 @@
 ---
 Category: 'docker'
-Description: 'Template Docker repository for tool_name'  # Description of why the repository exists
+Description: 'Docker repository for bam-readcount'  # Description of why the repository exists
 Maintainers: ['YBugh@mednet.ucla.edu', 'maotian@mednet.ucla.edu']  # email address of maintainers
 Contributors: ['Bugh Caden', 'Mao Tian']  # Full names of contributors
 Languages: ['Dockerfile']  # programming languages used
-Tools: ['bam_readcount']  # Name of the tool(s) used in the Dockerfile
+Tools: ['bam-readcount']  # Name of the tool(s) used in the Dockerfile
 Version: ['1.0.0']  # Tool version number
 Purpose of tool: 'a utility that count DNA sequence reads in BAM and CRAM files.'  # Description of what this tool does
 References: 'Khanna, Ajay et al. “Bam-readcount -- rapid generation of basepair-resolution sequence metrics.” ArXiv arXiv:2107.12817v1. 27 Jul. 2021 Preprint. https://github.com/genome/bam-readcount'  # is the tool/dependencies published, is there a confluence page
