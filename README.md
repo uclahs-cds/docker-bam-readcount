@@ -29,11 +29,11 @@ The Boutros lab docker image versioning standard [here](https://confluence.medne
 
 ## License
 
-Author: Name1, Name2
+Author: Mao Tian
 
-[docker repo name] is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
+Docker-bam-readcount is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
 
-<one line to give the program's name and a brief idea of what it does.>
+A utility that runs on a BAM or CRAM file and generates low-level information about sequencing data at specific nucleotide positions.
 
 Copyright (C) 2021 University of California Los Angeles ("Boutros Lab") All rights reserved.
 
