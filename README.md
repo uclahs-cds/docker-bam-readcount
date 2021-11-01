@@ -29,7 +29,7 @@ The Boutros lab docker image versioning standard [here](https://confluence.medne
 
 ## License
 
-Author: Mao Tian
+Author: Caden Bugh, Mao Tian
 
 Docker-bam-readcount is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
 
