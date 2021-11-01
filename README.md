@@ -1,14 +1,17 @@
 # docker-bam-readcount
-Bam-readcount is a utility that count DNA sequence reads in BAM and CRAM files.
+Bam-readcount is a utility that counts DNA sequence reads in BAM and CRAM files. It generates metrics for `.bam` files at single nucleotide positions:
+```
+Usage: bam-readcount [OPTIONS] <bam_file> [region]
+Example: bam-readcount -f ref.fa some.bam
+```
+The output of bam-readcount is a no header tab-separated file end with `.readcount`. For more description of bam-readcount usage and output, please see [the main github page of bam-readcount](https://github.com/genome/bam-readcount).
 
-The bam-readcount image is located in the Boutros Lab Docker Hub repo [here](https://hub.docker.com/repository/docker/blcdsdockerregistry/bam-readcount)
+The bam-readcount image is located in the Boutros Lab Docker Hub repo [here](https://hub.docker.com/repository/docker/blcdsdockerregistry/bam-readcount).
 
 # Documentation
-The main github page of bam-readcount can be found [here](https://github.com/genome/bam-readcount) with documentations.
+The main github page of bam-readcount can be found [here](https://github.com/genome/bam-readcount) with documentations. The official latest docker image is available [here](https://hub.docker.com/r/mgibio/bam-readcount).
 
-The official latest docker image can be found [here](https://hub.docker.com/r/mgibio/bam-readcount)
-
-The Boutros lab docker image versioning standard [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+image+versioning+standardization)
+The Boutros lab docker image versioning standard [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+image+versioning+standardization).
 
 
 # Version
