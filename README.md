@@ -33,7 +33,7 @@ Author: Mao Tian
 
 Docker-bam-readcount is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
 
-A utility that runs on a BAM or CRAM file and generates low-level information about sequencing data at specific nucleotide positions.
+Docker-bam-readcount is a utility that runs on a BAM or CRAM file and generates low-level information about sequencing data at specific nucleotide positions.
 
 Copyright (C) 2021 University of California Los Angeles ("Boutros Lab") All rights reserved.
 
