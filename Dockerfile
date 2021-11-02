@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-ARG bam_readcount_VERSION=1.0.0
+ARG bam_readcount_VERSION=0.8.0
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends\
     build-essential \
