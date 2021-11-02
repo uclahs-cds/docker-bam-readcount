@@ -1,14 +1,17 @@
 # docker-bam-readcount
-bam-readcount is a utility that count DNA sequence reads in BAM and CRAM files. The main page can be found [here](https://github.com/genome/bam-readcount). 
+Bam-readcount is a utility that counts DNA sequence reads in BAM and CRAM files. It generates metrics for `.bam` files at single nucleotide positions:
+```
+Usage: bam-readcount [OPTIONS] <bam_file> [region]
+Example: bam-readcount -f ref.fa some.bam
+```
+The output of bam-readcount is a no header tab-separated file end with `.readcount`. For more description of bam-readcount usage and output, please see [the main github page of bam-readcount](https://github.com/genome/bam-readcount).
 
-The bam-readcount image is located in the Boutros Lab Docker Hub repo [here](https://hub.docker.com/repository/docker/blcdsdockerregistry/bam-readcount)
+The bam-readcount image is located in the Boutros Lab Docker Hub repo [here](https://hub.docker.com/repository/docker/blcdsdockerregistry/bam-readcount).
 
 # Documentation
-Docker introduction [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+Introduction)
+The main github page of bam-readcount can be found [here](https://github.com/genome/bam-readcount) with documentations. The official latest docker image is available [here](https://hub.docker.com/r/mgibio/bam-readcount).
 
-Dockerfile Best Practices [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Dockerfile+Best+Practices)
-
-Docker image versioning standard [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+image+versioning+standardization)
+The Boutros lab docker image versioning standard [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+image+versioning+standardization).
 
 
 # Version
@@ -16,23 +19,21 @@ Docker image versioning standard [here](https://confluence.mednet.ucla.edu/displ
 |------|---------|
 |bam-readcount| 1.0.0|
 
-
-
 ---
 
 ## References
 
-1. Khanna, Ajay et al. “Bam-readcount -- rapid generation of basepair-resolution sequence metrics.” ArXiv arXiv:2107.12817v1. 27 Jul. 2021 Preprint. https://github.com/genome/bam-readcount
+1. Khanna, Ajay et al. “Bam-readcount -- rapid generation of basepair-resolution sequence metrics.” ArXiv arXiv:2107.12817v1. 27 Jul. 2021 Preprint. 
 
 ---
 
 ## License
 
-Author: Name1, Name2
+Author: Caden Bugh, Mao Tian
 
-[docker repo name] is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
+Docker-bam-readcount is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
 
-<one line to give the program's name and a brief idea of what it does.>
+Docker-bam-readcount is a utility that runs on a BAM or CRAM file and generates low-level information about sequencing data at specific nucleotide positions.
 
 Copyright (C) 2021 University of California Los Angeles ("Boutros Lab") All rights reserved.
 
