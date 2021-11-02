@@ -5,6 +5,6 @@ Maintainers: ['YBugh@mednet.ucla.edu', 'maotian@mednet.ucla.edu']  # email addre
 Contributors: ['Caden Bugh', 'Mao Tian']  # Full names of contributors
 Languages: ['Dockerfile']  # programming languages used
 Tools: ['bam-readcount']  # Name of the tool(s) used in the Dockerfile
-Version: ['1.0.0']  # Tool version number
+Version: ['0.8.0']  # Tool version number
 Purpose of tool: 'a utility that count DNA sequence reads in BAM and CRAM files.'  # Description of what this tool does
 References: 'Khanna, Ajay et al. “Bam-readcount -- rapid generation of basepair-resolution sequence metrics.” ArXiv arXiv:2107.12817v1. 27 Jul. 2021 Preprint.'  # is the tool/dependencies published, is there a confluence page

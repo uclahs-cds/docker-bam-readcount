@@ -17,7 +17,7 @@ The Boutros lab docker image versioning standard [here](https://confluence.medne
 # Version
 | Tool | Version |
 |------|---------|
-|bam-readcount| 1.0.0|
+|bam-readcount| 0.8.0|
 
 ---
 
