@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-
+ARG bam_readcount_VERSION=1.0.0
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends\
     build-essential \
@@ -13,15 +13,15 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /
-RUN wget https://github.com/genome/bam-readcount/archive/refs/tags/v1.0.0.tar.gz \
-    && tar xzf v1.0.0.tar.gz \
-    && rm v1.0.0.tar.gz
+RUN wget https://github.com/genome/bam-readcount/archive/refs/tags/v${bam_readcount_VERSION}.tar.gz \
+    && tar xzf v${bam_readcount_VERSION}.tar.gz \
+    && rm v${bam_readcount_VERSION}.tar.gz
 
 RUN mkdir bam-readcount \
     && cd bam-readcount \
-    && cmake /bam-readcount-1.0.0 \
+    && cmake /bam-readcount-${bam_readcount_VERSION} \
     && make \
-    && rm -rf /bam-readcount-1.0.0 \
+    && rm -rf /bam-readcount-v${bam_readcount_VERSION} \
     && ln -s /bam-readcount/bin/bam-readcount /usr/local/bin/bam-readcount
 
 WORKDIR /app
