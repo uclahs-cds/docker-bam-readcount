@@ -34,7 +34,7 @@
 ### Version
 
 <!---If this version does not function or has not yet been approved, don't push it to Docker Hub and leave this unchecked (you can edit this after)--->
-- [ ] Upon successful testing and reviewer approval, I have pushed this Docker image to the `blcdsdockerregistry` on [Docker Hub](https://hub.docker.com).
+- [ ] Upon successful testing and reviewer approval, this Docker image will be auto built to the `blcdsdockerregistry` on [Docker Hub](https://hub.docker.com) following [auto-build manual](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/How+to+set+up+automated+builds+for+Docker+Hub).
 
 ## Testing
 
