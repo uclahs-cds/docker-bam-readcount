@@ -35,8 +35,6 @@
 
 - [ ] I have tested the Docker image with the `docker run` command as described below.
 
-## Testing
-
 Test the Docker image with at least one A-mini sample. Verify the new Docker image works using:
 
 ```docker run -u $(id -u):$(id -g) –w <working-directory> -v <directory-you-want-to-mount>:<how-you-want-to-mount-it-within-the-docker> --rm <docker-image-name> <command-to-the-docker-with-all-parameters>```
