@@ -27,14 +27,13 @@
 <!---If any previous versions have bugs, add "deprecated" in the version tag and list the bug in the corresponding release--->
 - [ ] I have drafted the new version release with any addidtions/changes and have linked the `CHANGELOG.md` in the release. 
 
+### Docker Hub Auto Build Rules
+
+- [ ] I have created automated build rules following [this page](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/How+to+set+up+automated+builds+for+Docker+Hub) and I have not manually pushed this Docker image to the `blcdsdockerregistry` on [Docker Hub](https://hub.docker.com).
+
 ### Tested
 
 - [ ] I have tested the Docker image with the `docker run` command as described below.
-
-### Version
-
-<!---If this version does not function or has not yet been approved, don't push it to Docker Hub and leave this unchecked (you can edit this after)--->
-- [ ] Upon successful testing and reviewer approval, this Docker image will be auto built to the `blcdsdockerregistry` on [Docker Hub](https://hub.docker.com) following [auto-build manual](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/How+to+set+up+automated+builds+for+Docker+Hub).
 
 ## Testing
 
