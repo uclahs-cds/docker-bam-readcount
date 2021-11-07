@@ -31,7 +31,7 @@
 
 - [ ] I have created automated build rules following [this page](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/How+to+set+up+automated+builds+for+Docker+Hub) and I have not manually pushed this Docker image to the `blcdsdockerregistry` on [Docker Hub](https://hub.docker.com).
 
-### Tested
+### Docker Image Testing
 
 - [ ] I have tested the Docker image with the `docker run` command as described below.
 
