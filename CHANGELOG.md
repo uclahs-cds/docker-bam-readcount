@@ -8,30 +8,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ---
 
 ## [Unreleased]
-### Changed
-- Changed something but it is not part of the last release.
 
 ---
 
-## [1.0.0] - YYYY-MM-DD
+## [0.8.0] - 2021-11-02
 ### Added
-- For new features.
-- Added item 1.
-
-### Changed
-- For changes in existing functionality.
-- Changed item 1.
-
-### Deprecated
-- For soon-to-be removed features.
-
-### Removed
-- For now removed features.
-- Removed item 1.
-
-### Fixed
-- For any bug fixes.
-- Fixed item 1.
-
-### Security
-- In case of vulnerabilities.
+- Create dockerfile for bam-readcount 0.8.0.
