@@ -17,7 +17,7 @@ The Boutros lab docker image versioning standard [here](https://confluence.medne
 # Version
 | Tool | Version |
 |------|---------|
-|bam-readcount| 0.8.0|
+|bam-readcount| 1.0.1|
 
 ---
 
@@ -35,7 +35,7 @@ docker-bam-readcount is licensed under the GNU General Public License version 2.
 
 docker-bam-readcount is a utility that runs on a BAM or CRAM file and generates low-level information about sequencing data at specific nucleotide positions.
 
-Copyright (C) 2021 University of California Los Angeles ("Boutros Lab") All rights reserved.
+Copyright (C) 2021-2024 University of California Los Angeles ("Boutros Lab") All rights reserved.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
