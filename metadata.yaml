@@ -1,7 +1,7 @@
 ---
 Category: 'docker'
 Description: 'Docker repository for bam-readcount'  # Description of why the repository exists
-Maintainers: ['YBugh@mednet.ucla.edu', 'maotian@mednet.ucla.edu','sfitzgibbon@mednet.ucla.edu']  # email address of maintainers
+Maintainers: ['YBugh@mednet.ucla.edu', 'maotian@mednet.ucla.edu', 'sfitzgibbon@mednet.ucla.edu']  # email address of maintainers
 Contributors: ['Caden Bugh', 'Mao Tian']  # Full names of contributors
 Languages: ['Dockerfile']  # programming languages used
 Tools: ['bam-readcount']  # Name of the tool(s) used in the Dockerfile
