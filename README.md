@@ -6,18 +6,16 @@ Example: bam-readcount -f ref.fa some.bam
 ```
 The output of bam-readcount is a no header tab-separated file end with `.readcount`. For more description of bam-readcount usage and output, please see [the main github page of bam-readcount](https://github.com/genome/bam-readcount).
 
-The bam-readcount image is located in the Boutros Lab Docker Hub repo [here](https://hub.docker.com/repository/docker/blcdsdockerregistry/bam-readcount).
+This image can be found in docker-bam-readcount's GitHub page [here](https://github.com/uclahs-cds/docker-bam-readcount)
 
 # Documentation
-The main github page of bam-readcount can be found [here](https://github.com/genome/bam-readcount) with documentations. The official latest docker image is available [here](https://hub.docker.com/r/mgibio/bam-readcount).
-
-The Boutros lab docker image versioning standard [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+image+versioning+standardization).
+The main github page of bam-readcount can be found [here](https://github.com/genome/bam-readcount) with documentations.
 
 
 # Version
 | Tool | Version |
 |------|---------|
-|bam-readcount| 0.8.0|
+|bam-readcount| 1.0.1|
 
 ---
 
@@ -29,13 +27,13 @@ The Boutros lab docker image versioning standard [here](https://confluence.medne
 
 ## License
 
-Author: Caden Bugh, Mao Tian
+Author: Caden Bugh, Mao Tian, Sorel Fitz-Gibbon
 
 docker-bam-readcount is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
 
 docker-bam-readcount is a utility that runs on a BAM or CRAM file and generates low-level information about sequencing data at specific nucleotide positions.
 
-Copyright (C) 2021 University of California Los Angeles ("Boutros Lab") All rights reserved.
+Copyright (C) 2021-2024 University of California Los Angeles ("Boutros Lab") All rights reserved.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
